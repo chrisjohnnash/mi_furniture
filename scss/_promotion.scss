@@ -1,0 +1,48 @@
+.promotion {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 80vh;
+}
+
+.promo-chair {
+    background-color: $light-blue;
+}
+
+.promo-sales {
+    background-color: $light-orange;
+}
+
+.promo-sales-info {
+    margin: 6rem 6rem;
+    width: 60%;
+}
+
+.promo-heading {
+    font-size: 1.5em;
+    color: $link-color;
+}
+
+.promo-items {
+    font-size: 3.5em;
+    font-weight: 400;
+}
+
+.promo-copy {
+    line-height: 1.6;
+    color: $text-grey;
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    border-color: $link-color;
+    background: $link-color;
+    padding: 1.5rem 5rem;
+    text-transform: uppercase;
+    color: $text-white;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+  
+
+
+

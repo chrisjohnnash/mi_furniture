@@ -1,6 +1,7 @@
 @import 'config';
 @import 'utilities'; 
 @import 'mobile';
+@import 'promotion';
 @import 'footer';
 
 
@@ -63,24 +64,4 @@ footer {
             margin-left: 3rem;
         }
     }
-}
-
-.promotion {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    height: 80vh;
-}
-
-.promo-chair {
-    background-color: $light-blue;
-}
-
-.promo-sales {
-    background-color: $light-orange;
-}
-
-.promo-sales-info {
-    width: 80%;
-    justify-items: center;
-    align-items:   center;
 }
